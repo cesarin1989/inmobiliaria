@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 
     include "../php/funciones.php";
     session_start(); 
@@ -50,12 +50,11 @@
                   <div class="form-group">
                     <label class=" col-sm-3">ID:</label>
                     <div class="col-sm-9">
-                      <?php 
-                          $con = conectarSocioBienes();
-                          $consulta = "select auto_increment from information_schema.tables where table_schema='inmobiliaria' and table_name='noticias'";
-                          $datos = mysqli_query($con, $consulta);
-                          $array = mysqli_fetch_array($datos, MYSQLI_NUM);
-                          echo "<td><input class='form-control' type='text' name='id' value = $array[0] readonly></td>";
+                      <?php                           $con = conectarSocioBienes();
+                           $consulta = "select auto_increment from information_schema.tables where table_schema=DATABASE() and table_name='noticias'";
+                           $datos = mysqli_query($con, $consulta);
+                           $array = mysqli_fetch_array($datos, MYSQLI_NUM);
+                           echo "<td><input class='form-control' type='text' name='id' value='$array[0]' readonly></td>";
                        ?>
                     </div>
                   </div>
