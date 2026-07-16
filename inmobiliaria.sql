@@ -75,7 +75,8 @@ INSERT INTO `clientes` (`id`, `nombre`, `apellidos`, `direccion`, `telefono1`, `
 (3, 'Timoteo', 'Torrecillas ', 'Plaza vieja, 89', '611622633', '644323198', '', ''),
 (15, 'Rubén', 'Segura Romo', 'C/ Doctor Pareja Yébenes, 8', '664790808', '', 'ruben', '9c4ef266a68738cf884f1a990424f05f'),
 (16, 'Delia', 'Sánchez Carrillo', 'C/ industrial, 17', '612321441', '', 'delia', '6bc5e6e2c31e813fb33bef0f2d938f05'),
-(17, 'José', 'Torrecillas Fernández', 'C/ Tahona ,5', '685633215', '615993215', 'jose', '9b68086445d968e8a97f74f00df9738f');
+(17, 'José', 'Torrecillas Fernández', 'C/ Tahona ,5', '685633215', '615993215', 'jose', '9b68086445d968e8a97f74f00df9738f'),
+(18, 'Cesar', 'Mora', 'Urb. Vía a la Costa, Guayaquil', '0969048724', NULL, 'cesar', '83b33026118508c924a3931f183a194f');
 
 -- --------------------------------------------------------
 
